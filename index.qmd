@@ -34,3 +34,45 @@ code-line-numbers: false
 code-block-font-size: "0.85em"
 ---
 
+The final project allows students to explore methods beyond the course scope and contribute to the course knowledge base. Students select a hydroclimate risk problem and either apply a familiar method to a new context or learn and apply a new method.
+
+## Three-Deliverable Approach
+
+### Lecture Notes Contribution
+
+Add a subsection to the course materials explaining your chosen method:
+
+- Mathematical framework and key assumptions
+- Implementation guidance with code examples
+- Discussion of strengths, limitations, and appropriate applications
+- Integration with course themes (uncertainty quantification, model evaluation, etc.)
+
+### Teaching Segment (15-20 minutes)
+
+Present your method to the class during the Course Symposium:
+
+- Demonstrate the method with a concrete example
+- Explain when and why to use this approach
+- Connect to course concepts and other methods
+- Facilitate discussion about applications and limitations
+
+### Research Proposal (10 pages)
+
+Develop a research proposal showing how your method could address a significant hydroclimate risk problem:
+
+- Problem motivation and significance
+- Literature review positioning your approach
+- Detailed methodology and implementation plan
+- Expected outcomes and broader impacts
+- Timeline and resource requirements
+
+## Timeline
+
+- **Project Introduction**: August 27 (assigned with course introduction)
+- **Half-Page Proposal Due**: October 1 (with PS1 - method and problem identification)
+- **Mandatory Check-ins**: October 13-17 (schedule one-on-one meeting to discuss proposal and scope)
+- **Final Deliverables Due**: December 5 (lecture notes contribution, research proposal)
+- **Course Symposium**: November 24, December 1, December 3 (15-20 minute teaching presentations)
+
+**Note**: The proposal and check-in system ensures appropriate topic selection and scope before significant work begins. Topics that are too simple or too ambitious will be identified and adjusted early in the process.
+
