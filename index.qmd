@@ -1,9 +1,12 @@
 ---
-title: "Final Project"
-subtitle: "Climate Risk Analysis"
+title: "Final Project: Independent Method Exploration (Due Dec 5)"
+subtitle: "Contributing to Course Knowledge Base"
 author: CEVE 543 Fall 2025
 due_date: "2025-12-05"
-assigned_date: "2025-08-27"
+date: "2025-08-27"
+type: "assignment"
+points: "20%"
+description: "Student-driven exploration of hydroclimate methods with teaching component and research proposal"
 
 engine: julia
 
@@ -13,7 +16,7 @@ format:
     toc-depth: 2
     code-block-bg: "#f8f8f8"
     code-block-border-left: "#e1e4e5"
-    theme: default
+    theme: cosmo
     number-sections: true
     fig-format: svg
   typst:
