@@ -52,7 +52,7 @@ Add a subsection to the course materials explaining your chosen method:
 
 ### Teaching Segment (15-20 minutes)
 
-Present your method to the class during the Course Symposium:
+Present your method to the class during the Student Teaching Sessions:
 
 - Demonstrate the method with a concrete example
 - Explain when and why to use this approach
@@ -72,10 +72,10 @@ Develop a research proposal showing how your method could address a significant 
 ## Timeline
 
 - **Project Introduction**: August 27 (assigned with course introduction)
-- **Half-Page Proposal Due**: October 1 (with PS1 - method and problem identification)
+- **Half-Page Proposal Due**: October 15 (after Module 1 exam feedback - method and problem identification)
 - **Mandatory Check-ins**: October 13-17 (schedule one-on-one meeting to discuss proposal and scope)
 - **Final Deliverables Due**: December 5 (lecture notes contribution, research proposal)
-- **Course Symposium**: November 24, December 1, December 3 (15-20 minute teaching presentations)
+- **Student Teaching Sessions**: December 1, December 3, December 5 (15-20 minute teaching presentations)
 
 **Note**: The proposal and check-in system ensures appropriate topic selection and scope before significant work begins. Topics that are too simple or too ambitious will be identified and adjusted early in the process.
 
