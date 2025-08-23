@@ -37,45 +37,105 @@ code-line-numbers: false
 code-block-font-size: "0.85em"
 ---
 
-The final project allows students to explore methods beyond the course scope and contribute to the course knowledge base. Students select a hydroclimate risk problem and either apply a familiar method to a new context or learn and apply a new method.
+The field of hydroclimate risk assessment draws from a vast array of statistical and machine learning techniques.
+While this course covers foundational methods, many specialized approaches remain unexplored.
+This project provides an opportunity to independently investigate a method not covered in class while contributing to the collective learning experience through teaching and knowledge sharing.
 
-## Three-Deliverable Approach
+## Topic Selection
 
-### Lecture Notes Contribution
+Choose a specific statistical or machine learning method relevant to hydroclimate applications.
+Your topic should be suitable for a focused 20-minute class presentation and should emphasize methodological understanding rather than broad application surveys.
 
-Add a subsection to the course materials explaining your chosen method:
+### Suggested Topics
 
-- Mathematical framework and key assumptions
-- Implementation guidance with code examples
-- Discussion of strengths, limitations, and appropriate applications
-- Integration with course themes (uncertainty quantification, model evaluation, etc.)
+Consider these examples, each offering multiple possible approaches depending on your interests:
 
-### Teaching Segment (15-20 minutes)
+- Diffusion models: either a general methodological overview or application to synthetic weather generation for extreme events
+- Gaussian processes
+- Spectral analysis
+- Weather typing
 
-Present your method to the class during the Student Teaching Sessions:
+### Scope Considerations
 
-- Demonstrate the method with a concrete example
-- Explain when and why to use this approach
-- Connect to course concepts and other methods
-- Facilitate discussion about applications and limitations
+Note that topics vary significantly in breadth.
+Some methods like diffusion models represent entire research domains, while others like weather typing are more narrowly defined techniques.
+Regardless of your chosen topic's inherent scope, focus your exploration on specific implementations and applications rather than attempting comprehensive coverage.
 
-### Research Proposal (10 pages)
+Base your work on **two primary sources** (research papers or textbooks) that provide both theoretical foundation and practical guidance.
+When multiple implementation approaches exist, acknowledge this diversity but concentrate your detailed analysis on a single, well-documented example.
 
-Develop a research proposal showing how your method could address a significant hydroclimate risk problem:
+## Deliverables
 
-- Problem motivation and significance
-- Literature review positioning your approach
-- Detailed methodology and implementation plan
-- Expected outcomes and broader impacts
-- Timeline and resource requirements
+### Lecture Notes (30 points)
 
-## Timeline
+Contribute a new subsection to the course [textbook](https://dossgollin-lab.github.io/climate-risk-management-reference/) that explains your chosen method.
+Your contribution should follow the existing structure and style of current chapters.
 
-- **Project Introduction**: August 27 (assigned with course introduction)
-- **Half-Page Proposal Due**: October 15 (after Module 1 exam feedback - method and problem identification)
-- **Mandatory Check-ins**: October 13-17 (schedule one-on-one meeting to discuss proposal and scope)
-- **Final Deliverables Due**: December 5 (lecture notes contribution, research proposal)
-- **Student Teaching Sessions**: December 1, December 3, December 5 (15-20 minute teaching presentations)
+Your textbook contribution needs to cover three key areas.
+First, present the mathematical framework with clear notation and explicitly state key assumptions.
+Second, offer critical evaluation by discussing the method's strengths, limitations, and appropriate use cases.
+Finally, integrate your method with course themes by connecting it to concepts like uncertainty quantification, model evaluation, and risk assessment that we've covered throughout the semester.
 
-**Note**: The proposal and check-in system ensures appropriate topic selection and scope before significant work begins. Topics that are too simple or too ambitious will be identified and adjusted early in the process.
+### Teaching Segment (30 points)
 
+Deliver a 20-minute instructional presentation during the Student Teaching Sessions, focusing on active learning rather than passive information transfer.
+Use traditional teaching tools like chalkboard or whiteboard rather than prepared slides to encourage dynamic, responsive instruction.
+
+Your presentation should work through a concrete example that illustrates the method's practical application.
+Clearly explain when, why, and how to use this approach, making explicit connections to techniques and concepts we've previously covered in class.
+Most importantly, facilitate meaningful discussion with your classmates about the method's applications, limitations, and potential extensions.
+
+### Research Proposal (40 points)
+
+Develop a comprehensive research proposal demonstrating how your method could address a significant hydroclimate risk challenge.
+Structure your proposal as a competitive grant application following standard academic format with appropriate citations and professional presentation.
+The 5-page limit applies to the main body of the proposal (introduction, literature review, methodology, expected outcomes, and timeline) and does not include references or appendices.
+
+You may assume that the reader has read your lecture notes, so avoid redundant explanations of the method itself.
+
+Begin by motivating a specific hydroclimate risk problem you want to address and explaining its broader significance to society and the scientific community.
+Conduct a thorough literature review that positions your proposed approach within existing research and clearly identifies knowledge gaps that your work would fill.
+Present detailed methodology including specific implementation plans, data requirements, computational approaches, and validation strategies you would use.
+Describe your expected outcomes and explain their potential impact on the field of hydroclimate risk assessment.
+Finally, provide a realistic project timeline with clear milestones and resource requirements spanning a 2-3 year research period.
+
+## Timeline and Milestones
+
+The project unfolds over the full semester with structured checkpoints to ensure steady progress and timely feedback.
+
+- **Project Introduction**: August 27 — Project assigned with course introduction and initial topic brainstorming
+- **Mandatory Individual Meetings**: October 13-17 — Schedule required one-on-one consultation to refine project scope and discuss implementation strategy
+- **Topic Proposal Due**: 24 hours before your scheduled meeting — Submit half-page proposal identifying your chosen method and target hydroclimate problem to allow time for review prior to meeting
+- **Final Written Deliverables Due**: December 5 — Submit completed lecture notes contribution and research proposal
+- **Student Teaching Sessions**: December 1, 3, and 5 — Deliver 20-minute teaching presentations to the class
+
+*Timeline subject to adjustment based on course progression and enrollment.*
+
+## Assessment and Grading Rubric
+
+This assignment constitutes 20% of your final course grade and is assessed out of 100 total points.
+
+### Lecture Notes Contribution (30 points)
+
+| **Criterion** | **Excellent (27-30 pts)** | **Proficient (22-26 pts)** | **Developing (17-21 pts)** | **Inadequate (<17 pts)** |
+|---------------|---------------------------|----------------------------|----------------------------|---------------------------|
+| **Mathematical Framework (10 pts)** | Clear, rigorous presentation with proper notation; assumptions explicitly stated and justified | Generally clear mathematical exposition with minor notation issues; most assumptions identified | Mathematical framework present but with some unclear elements or missing assumptions | Mathematical content incomplete, unclear, or contains significant errors |
+| **Application Examples (10 pts)** | Clear, practical examples demonstrating method application; well-chosen illustrations | Good examples with adequate explanation; examples generally appropriate | Examples present but could be clearer or more relevant | Examples missing, unclear, or inappropriate |
+| **Critical Analysis & Course Integration (10 pts)** | Thoughtful discussion of strengths/limitations; excellent connections to course concepts | Good analysis with clear connections to course material | Basic discussion of strengths/limitations; some course connections | Superficial analysis; weak or missing course connections |
+
+### Teaching Segment (30 points)
+
+| **Criterion** | **Excellent (27-30 pts)** | **Proficient (22-26 pts)** | **Developing (17-21 pts)** | **Inadequate (<17 pts)** |
+|---------------|---------------------------|----------------------------|----------------------------|---------------------------|
+| **Clarity and Engagement (15 pts)** | Exceptionally clear explanation; highly engaging presentation that maintains class attention | Clear explanation with good engagement; students follow the material well | Generally clear but some confusing moments; moderate engagement | Unclear explanation; poor engagement or class appears confused |
+| **Course Integration (10 pts)** | Explicit, meaningful connections to multiple course concepts; demonstrates deep understanding | Clear connections to course material with good understanding evident | Some connections made but could be stronger or more explicit | Weak or missing connections to course concepts |
+| **Interactive Discussion (5 pts)** | Skillfully facilitates meaningful discussion; encourages participation and handles questions well | Facilitates good discussion with appropriate participation | Basic discussion facilitation; some participation encouraged | Poor discussion facilitation; minimal or forced participation |
+
+### Research Proposal (40 points)
+
+| **Criterion** | **Excellent (36-40 pts)** | **Proficient (31-35 pts)** | **Developing (26-30 pts)** | **Inadequate (<26 pts)** |
+|---------------|---------------------------|----------------------------|----------------------------|---------------------------|
+| **Problem Significance (12 pts)** | Compelling motivation for important hydroclimate problem; clear broader significance | Good problem motivation with clear relevance to field | Adequate problem statement but significance could be stronger | Weak problem motivation; unclear significance or relevance |
+| **Literature Review (10 pts)** | Comprehensive, well-synthesized review; clearly positions proposed work | Good literature coverage with clear positioning | Adequate literature review but synthesis could be stronger | Incomplete or poorly synthesized literature review |
+| **Methodology (12 pts)** | Detailed, feasible plan with clear implementation steps; appropriate validation approach | Generally detailed plan with minor gaps; reasonable implementation approach | Basic methodology but lacks detail or has feasibility concerns | Unclear, incomplete, or unrealistic methodology |
+| **Professional Presentation (6 pts)** | Excellent writing quality; proper citations; professional formatting and organization | Good writing with proper citations; well-organized | Adequate writing quality; minor citation or formatting issues | Poor writing quality; significant formatting or citation problems |
