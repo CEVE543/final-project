@@ -45,33 +45,22 @@ Choose a specific statistical or machine learning **method** that you want to le
 Your focus must be on understanding and teaching the method itself—how it works, when to use it, its assumptions, and its limitations.
 
 **Important**: Your presentation and lecture notes should teach the **method**, not just present an application.
-While you should illustrate the method with concrete examples and discuss potential applications in your research proposal, the core content must explain the methodological approach itself.
+While you should illustrate the method with concrete examples, the core content must explain the methodological approach itself.
 This is not a literature review or case study presentation—it is a methods tutorial that enables your classmates to understand and potentially use the technique.
 
 ### Suggested Topics
 
-Consider these examples, ranging from more accessible methods to advanced techniques:
+Consider these examples:
 
-**Foundational Methods** (good for students building core statistical skills):
-
-- Mann-Kendall trend test and Sen's slope estimator for detecting trends in hydrologic time series
-- Bootstrap methods for uncertainty quantification in hydrologic applications
-- Kernel density estimation for rainfall analysis
-- Copulas for modeling dependence between hydrologic variables
-
-**Intermediate Methods** (suitable for students with solid statistics background):
-
-- Spectral analysis and wavelet decomposition for identifying periodicities in climate data
-- Weather typing and circulation pattern classification
-- Time series decomposition methods (STL, seasonal-trend decomposition)
+- Bootstrap methods
+- Kernel density estimation
+- Copulas
+- Spectral analysis
+- Discrete wavelet decomposition
+- Weather typing
 - Spatial interpolation methods (kriging, thin plate splines)
-
-**Advanced Methods** (for students with strong ML/stats background):
-
-- Gaussian processes for spatial-temporal modeling
-- Diffusion models for synthetic weather generation
-- Variational inference methods for Bayesian hydrologic models
-- Deep learning architectures for precipitation downscaling
+- 1D and 2D Gaussian processes
+- Diffusion models
 
 ### Scope Considerations
 
@@ -84,69 +73,54 @@ When multiple implementation approaches exist, acknowledge this diversity but co
 
 ## Deliverables
 
-### Lecture Notes (40 points)
-
-Contribute a new subsection to the course [textbook](https://dossgollin-lab.github.io/climate-risk-management-reference/) that explains your chosen method.
-Your contribution should follow the existing structure and style of current chapters.
-
-Your textbook contribution needs to cover these key areas:
-
-- Present the mathematical framework with clear notation and explicitly state key assumptions
-- Work through at least one concrete example demonstrating the method's application to hydroclimate problems
-- Provide critical evaluation by discussing the method's strengths, limitations, and appropriate use cases
-- Integrate your method with course themes by connecting it to concepts like uncertainty quantification, model evaluation, and risk assessment that we've covered throughout the semester
-- Include properly formatted citations to your primary sources and other relevant literature
-
-### Teaching Segment (60 points)
-
-Deliver a 20-minute instructional presentation during the Student Teaching Sessions, focusing on active learning rather than passive information transfer.
-Use traditional teaching tools like chalkboard or whiteboard rather than prepared slides to encourage dynamic, responsive instruction.
-
-Your presentation should work through a concrete example that illustrates the method's practical application.
-Clearly explain when, why, and how to use this approach, making explicit connections to techniques and concepts we've previously covered in class.
-Most importantly, facilitate meaningful discussion with your classmates about the method's applications, limitations, and potential extensions.
-
-## Timeline and Milestones
-
-The project unfolds over the full semester with structured checkpoints to ensure steady progress and timely feedback.
-
-- **Project Introduction**: August 25 — Project assigned with course introduction
-- **In-Class Workshop**: October 8 — Dedicated class time for topic selection and initial planning
-- **Topic Proposal Due**: October 15 — Submit one-page proposal identifying your chosen method and two primary sources
-- **Mandatory Individual Meetings**: October 17-24 — Schedule required one-on-one consultation to refine project scope and discuss implementation strategy
-- **Draft Lecture Notes Due**: November 14 — Submit complete draft of textbook contribution for formative feedback
-- **Final Lecture Notes Due**: November 28 — Submit completed lecture notes contribution to use in teaching preparation
-- **Student Teaching Sessions**: December 1, 3, and 5 — Deliver 20-minute teaching presentations to the class
-
-*Timeline subject to adjustment based on course progression and enrollment.*
-
-## Draft Deliverable Expectations
-
 ### Topic Proposal (October 15)
 
-Submit a one-page document that includes:
+Submit a one-page PDF file to Canvas that includes:
 
 - Your chosen method with brief justification for why it interests you
 - Two primary sources (research papers or textbook chapters) that provide both theoretical foundation and practical implementation guidance
 - Brief statement of how this method connects to course concepts
 
-### Draft Lecture Notes (November 14)
+### Draft Lecture Notes (November 14) — 10 points
 
-Submit a complete draft of your textbook contribution that includes:
+Submit a complete draft of your lecture notes as a Quarto document in a GitHub repository, following the structure of past assignments.
+Create a repository, clone it to your computer, create a Quarto document, and push your work to GitHub.
+Render to PDF using Typst (or another backend of your choice) and submit the PDF to Canvas along with a link to your repository.
+
+Your draft should include:
 
 - Mathematical framework with proper notation and stated assumptions
 - At least one worked example demonstrating the method's application
-- Initial discussion of strengths, limitations, and appropriate use cases
-- Draft connections to course themes (uncertainty quantification, model evaluation, risk assessment)
+- Discussion of strengths, limitations, and appropriate use cases
+- Connections to course themes (uncertainty quantification, model evaluation, risk assessment)
+- Proper citations and bibliography
 
-This draft should be substantively complete, though it may benefit from refinement based on feedback.
-The goal is to provide you with formative feedback before your teaching session.
+This draft should be substantively complete to receive full credit and allow meaningful formative feedback before your teaching session.
+
+### Final Lecture Notes (November 28) — 40 points
+
+Revise your lecture notes based on feedback received on your draft.
+Submit the final version following the same format: render to PDF and submit to Canvas with a link to your updated GitHub repository.
+
+Your final contribution should be suitable for inclusion in the course [textbook](https://dossgollin-lab.github.io/climate-risk-management-reference/) and follow the existing structure and style of current chapters.
+
+### Teaching Presentation (December 1, 3, or 5) — 50 points
+
+Deliver a 20-minute instructional presentation during the Student Teaching Sessions.
+Use traditional teaching tools like chalkboard or whiteboard rather than prepared slides.
+
+Your presentation should work through a concrete example that illustrates the method's practical application.
+Clearly explain when, why, and how to use this approach, making explicit connections to techniques and concepts we've previously covered in class.
+Most importantly, facilitate meaningful discussion with your classmates about the method's applications, limitations, and potential extensions.
 
 ## Assessment and Grading Rubric
 
 This assignment constitutes 20% of your final course grade and is assessed out of 100 total points.
 
-### Lecture Notes Contribution (40 points)
+### Lecture Notes (50 points total)
+
+Draft lecture notes (10 points) are graded on completeness and effort to enable meaningful feedback.
+Final lecture notes (40 points) are assessed using the rubric below:
 
 | **Criterion** | **Excellent (36-40 pts)** | **Proficient (31-35 pts)** | **Developing (26-30 pts)** | **Inadequate (<26 pts)** |
 |---------------|---------------------------|----------------------------|----------------------------|---------------------------|
@@ -154,10 +128,10 @@ This assignment constitutes 20% of your final course grade and is assessed out o
 | **Application Examples (15 pts)** | Clear, practical examples demonstrating method application; well-chosen illustrations | Good examples with adequate explanation; examples generally appropriate | Examples present but could be clearer or more relevant | Examples missing, unclear, or inappropriate |
 | **Critical Analysis & Course Integration (10 pts)** | Thoughtful discussion of strengths/limitations; excellent connections to course concepts | Good analysis with clear connections to course material | Basic discussion of strengths/limitations; some course connections | Superficial analysis; weak or missing course connections |
 
-### Teaching Segment (60 points)
+### Teaching Presentation (50 points)
 
-| **Criterion** | **Excellent (54-60 pts)** | **Proficient (47-53 pts)** | **Developing (40-46 pts)** | **Inadequate (<40 pts)** |
+| **Criterion** | **Excellent (45-50 pts)** | **Proficient (39-44 pts)** | **Developing (33-38 pts)** | **Inadequate (<33 pts)** |
 |---------------|---------------------------|----------------------------|----------------------------|---------------------------|
-| **Clarity and Engagement (30 pts)** | Exceptionally clear explanation; highly engaging presentation that maintains class attention | Clear explanation with good engagement; students follow the material well | Generally clear but some confusing moments; moderate engagement | Unclear explanation; poor engagement or class appears confused |
-| **Course Integration (20 pts)** | Explicit, meaningful connections to multiple course concepts; demonstrates deep understanding | Clear connections to course material with good understanding evident | Some connections made but could be stronger or more explicit | Weak or missing connections to course concepts |
-| **Interactive Discussion (10 pts)** | Skillfully facilitates meaningful discussion; encourages participation and handles questions well | Facilitates good discussion with appropriate participation | Basic discussion facilitation; some participation encouraged | Poor discussion facilitation; minimal or forced participation |
+| **Clarity and Engagement (25 pts)** | Exceptionally clear explanation; highly engaging presentation that maintains class attention | Clear explanation with good engagement; students follow the material well | Generally clear but some confusing moments; moderate engagement | Unclear explanation; poor engagement or class appears confused |
+| **Course Integration (17 pts)** | Explicit, meaningful connections to multiple course concepts; demonstrates deep understanding | Clear connections to course material with good understanding evident | Some connections made but could be stronger or more explicit | Weak or missing connections to course concepts |
+| **Interactive Discussion (8 pts)** | Skillfully facilitates meaningful discussion; encourages participation and handles questions well | Facilitates good discussion with appropriate participation | Basic discussion facilitation; some participation encouraged | Poor discussion facilitation; minimal or forced participation |
