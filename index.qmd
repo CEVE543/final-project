@@ -103,13 +103,51 @@ Finally, provide a realistic project timeline with clear milestones and resource
 
 The project unfolds over the full semester with structured checkpoints to ensure steady progress and timely feedback.
 
-- **Project Introduction**: August 27 — Project assigned with course introduction and initial topic brainstorming
-- **Mandatory Individual Meetings**: October 13-17 — Schedule required one-on-one consultation to refine project scope and discuss implementation strategy
-- **Topic Proposal Due**: 24 hours before your scheduled meeting — Submit half-page proposal identifying your chosen method and target hydroclimate problem to allow time for review prior to meeting
-- **Final Written Deliverables Due**: December 5 — Submit completed lecture notes contribution and research proposal
+- **Project Introduction**: August 25 — Project assigned with course introduction
+- **In-Class Workshop**: October 8 — Dedicated class time for topic selection and initial planning
+- **Topic Proposal Due**: October 15 — Submit one-page proposal identifying your chosen method, two primary sources, and target hydroclimate problem
+- **Mandatory Individual Meetings**: October 17-24 — Schedule required one-on-one consultation to refine project scope and discuss implementation strategy
+- **Draft Lecture Notes Due**: November 14 — Submit complete draft of textbook contribution for formative feedback
+- **Research Proposal Outline Due**: November 24 — Submit 2-3 page outline including problem statement, literature review structure, and methodology sketch
+- **Final Lecture Notes Due**: November 28 — Submit completed lecture notes contribution to use in teaching preparation
 - **Student Teaching Sessions**: December 1, 3, and 5 — Deliver 20-minute teaching presentations to the class
+- **Final Research Proposal Due**: December 8 — Submit final 5-page research proposal incorporating insights from teaching discussions
 
 *Timeline subject to adjustment based on course progression and enrollment.*
+
+## Draft Deliverable Expectations
+
+### Topic Proposal (October 15)
+
+Submit a one-page document that includes:
+
+- Your chosen method with brief justification for why it interests you
+- Two primary sources (research papers or textbook chapters) that provide both theoretical foundation and practical implementation guidance
+- The hydroclimate risk problem you plan to address in your research proposal
+- Brief statement of how this method connects to course concepts
+
+### Draft Lecture Notes (November 14)
+
+Submit a complete draft of your textbook contribution that includes:
+
+- Mathematical framework with proper notation and stated assumptions
+- At least one worked example demonstrating the method's application
+- Initial discussion of strengths, limitations, and appropriate use cases
+- Draft connections to course themes (uncertainty quantification, model evaluation, risk assessment)
+
+This draft should be substantively complete, though it may benefit from refinement based on feedback.
+The goal is to provide you with formative feedback before your teaching session.
+
+### Research Proposal Outline (November 24)
+
+Submit a 2-3 page outline that includes:
+
+- Problem statement with preliminary motivation and significance discussion
+- Annotated literature review outline showing key sources and how they position your work
+- Methodology sketch with main components and implementation approach
+- Brief list of expected outcomes and potential impact
+
+This outline serves as a checkpoint to ensure your proposal is on track and to receive feedback on scope and approach before final submission.
 
 ## Assessment and Grading Rubric
 
