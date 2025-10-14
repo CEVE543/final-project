@@ -2,7 +2,7 @@
 title: "Final Project: Independent Method Exploration"
 subtitle: "Contributing to Course Knowledge Base"
 author: CEVE 543 Fall 2025
-due_date: "2025-11-28"
+due_date: "2025-12-05"
 date: "2025-08-25"
 type: "assignment"
 points: "20%"
@@ -73,7 +73,7 @@ When multiple implementation approaches exist, acknowledge this diversity but co
 
 ## Deliverables
 
-### Topic Proposal (October 15)
+### Topic Proposal (October 17)
 
 Submit a one-page PDF file to Canvas that includes:
 
@@ -97,7 +97,7 @@ Your draft should include:
 
 This draft should be substantively complete to receive full credit and allow meaningful formative feedback before your teaching session.
 
-### Final Lecture Notes (November 28) — 40 points
+### Final Lecture Notes (December 5) — 40 points
 
 Revise your lecture notes based on feedback received on your draft.
 Submit the final version following the same format: render to PDF and submit to Canvas with a link to your updated GitHub repository.
